@@ -21,7 +21,7 @@
 La demanda del mercado actual en la microelectrónica exige diseños digitales altamente complejos, que
 para implementarlos se requiere de ayuda asistida por computadora. Las herramientas EDA aumentan la
 productividad de los ingenieros al abstraer detalles de la implementación de los sistemas digitales por medio
-de un lenguaje de descripción de hardware (HDL) más natural para describir funcionalidades y comportamientos.
+de un lenguaje de descripción de hardware (HDL) más natural para describir funcionalidades y comportamientos.
 Los lenguajes HDL se utilizan para la síntesis de diseños digitales para ser fabricados en silicio o en
 FPGA. Las FPGAs, son circuitos integrados reconfigurables que de acuerdo su programación implementan
 una especificación funcional a partir de un código HDL. En este proyecto no es mandatorio realizar
