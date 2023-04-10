@@ -17,7 +17,8 @@
 
 ## Descripción general
 
-#### Introducción
+
+### Introducción
 La demanda del mercado actual en la microelectrónica exige diseños digitales altamente complejos, que
 para implementarlos se requiere de ayuda asistida por computadora. Las herramientas EDA aumentan la
 productividad de los ingenieros al abstraer detalles de la implementación de los sistemas digitales por medio
@@ -29,11 +30,11 @@ la demostración funcional en hardware sino con solo demostrar que el diseño es
 simulación.
 
 
-#### Objetivo general
+### Objetivo general
 Introducir al estudiante al desarrollo de un sistema digital utilizando lenguajes de descripción de hardware.
 
 
-#### Objetivos específicos
+### Objetivos específicos
   a. Elaborar una implementación de un diseño digital en una FPGA.
   b. Construir un testbench básico para validar las especificaciones del diseño.
   c. Implementar el algoritmo conversión binario a BCD.
@@ -41,7 +42,7 @@ Introducir al estudiante al desarrollo de un sistema digital utilizando lenguaje
   f. Practicar planificación de tareas para trabajo de grupo.
   
   
-#### Especificación del diseño
+### Especificación del diseño
 Se solicita el desarrollo de un sistema en FPGA para explorar el uso de periféricos de la Nexys4/Basys3
 como el display de siete segmentos y los switches. Es mandatorio leer los respectivos apartados del manual
 de la tarjeta de desarrollo, ver[2, 3, 1, 5, 4]. El desarrollo del proyecto deberá construirse según las pautas
