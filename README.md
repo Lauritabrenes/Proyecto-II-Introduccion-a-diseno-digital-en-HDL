@@ -63,7 +63,7 @@ fundamentales de diseño digital sincrónico. El circuito constará de al menos 
 
 ## Pruebas
 
-# Testbench
+### Testbench
 ![image (6)](https://user-images.githubusercontent.com/111261878/236120855-d30c70fb-9302-49e6-8e46-0656048d07a3.png)
 
 
