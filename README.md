@@ -64,6 +64,7 @@ fundamentales de diseño digital sincrónico. El circuito constará de al menos 
 ## Pruebas
 
 ### Run Implementation Vivado
+
 ![Captura de pantalla (171)](https://user-images.githubusercontent.com/111261878/236121396-27d5e041-e22d-46f1-bdf5-0a958ac9a137.png)
 
 
