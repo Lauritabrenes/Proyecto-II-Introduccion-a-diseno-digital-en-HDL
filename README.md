@@ -55,7 +55,7 @@ fundamentales de diseño digital sincrónico. El circuito constará de al menos 
 
 ![image](https://user-images.githubusercontent.com/111261878/231011781-1702b5aa-efe6-42cb-82ec-238074bc9db8.png)
 
-![image](https://user-images.githubusercontent.com/111307104/233260519-37e5eb6a-1623-4666-bb70-d9be3a25fb1c.png)
+
 
 
 ## Pruebas
@@ -70,6 +70,9 @@ fundamentales de diseño digital sincrónico. El circuito constará de al menos 
 
 
 ## Modulos
+
+### Diagrama general
+![image](https://user-images.githubusercontent.com/111307104/233260519-37e5eb6a-1623-4666-bb70-d9be3a25fb1c.png)
 
 ### Modulo 0
 
