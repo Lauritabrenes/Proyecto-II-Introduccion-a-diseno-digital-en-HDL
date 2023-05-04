@@ -78,8 +78,28 @@ fundamentales de diseño digital sincrónico. El circuito constará de al menos 
 
 
 ### Modulo 2
+(diagrama)
+El módulo bin2hex tiene dos puertos: una entrada bin de 14 bits que representa el número binario que se desea convertir, y una salida hex_disp de 4 bits que contiene la representación hexadecimal del número de entrada.
 
+Dentro del módulo, hay dos bloques funcionales principales. El primer bloque es la estructura case, que toma la entrada binaria de 14 bits y la convierte en una salida hexadecimal de 4 bits. El segundo bloque es un registro de salida llamado hex_disp, que contiene la salida hexadecimal de 4 bits del bloque case.
+
+En general, el módulo bin2hex es bastante simple, ya que solo realiza una conversión simple de binario a hexadecimal. Sin embargo, el diagrama de bloques muestra cómo se divide la funcionalidad del módulo en dos bloques funcionales separados, lo que ayuda a mantener el código organizado y fácil de entender.
 
 ### Modulo 3
 
 ![image](https://user-images.githubusercontent.com/111261878/236115812-b38112c5-72c8-4ae1-87f9-fa2c83fe8f5f.png)
+  Descripción:
+-num_binario: el bit más significativo (MSB) del número binario de entrada de 14 bits.
+-num_extendido a hexadecimal: el número binario de entrada extendido a 16 bits, con el bit más significativo duplicado para extender el signo.
+-complemento_dos: el complemento a dos del número extendido.
+-7_segmentos_hex: la tabla de conversión hexadecimal a 7 segmentos.
+-siete_segmentos: los cuatro dígitos del display de 7 segmentos que muestran el número hexadecimal de 16 bits con signo.
+
+
+
+
+
+## Evaluación
+
+![image](https://user-images.githubusercontent.com/111261878/236116178-56a46d14-71ec-43db-bd0e-b0289e69da5c.png)
+
