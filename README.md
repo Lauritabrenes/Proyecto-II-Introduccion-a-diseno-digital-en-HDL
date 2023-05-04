@@ -76,6 +76,10 @@ fundamentales de diseño digital sincrónico. El circuito constará de al menos 
 
 ### Modulo 0
 
+![image](https://user-images.githubusercontent.com/111261878/236119543-5841d66c-0184-4185-9078-55ad57aaa392.png)
+
+
+En este diagrama, la entrada de 13 bits se extiende a 16 bits mediante el registro de 16 bits. Este número binario se envía al bloque de conversión de BCD, que realiza las operaciones de división y módulo para calcular los dígitos de millares (thou), centenas (hund), decenas (tens) y unidades (ones) en formato BCD, asi como los divisores (1000, 100, 10 y 1) se utilizan para determinar la posición de cada dígito. Los dígitos de miles, centenas, decenas y unidades se envían a las salidas thou, hund, tens y ones respectivamente, cada una de 4 bits de ancho.
 
 ### Modulo 1
 
