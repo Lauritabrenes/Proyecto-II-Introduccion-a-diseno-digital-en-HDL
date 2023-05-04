@@ -69,7 +69,7 @@ fundamentales de diseño digital sincrónico. El circuito constará de al menos 
 
 
 
-## Modulos
+## Diagramas
 
 ### Diagrama general
 ![image](https://user-images.githubusercontent.com/111307104/233260519-37e5eb6a-1623-4666-bb70-d9be3a25fb1c.png)
