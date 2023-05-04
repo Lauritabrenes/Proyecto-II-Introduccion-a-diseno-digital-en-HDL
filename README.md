@@ -79,9 +79,15 @@ fundamentales de diseño digital sincrónico. El circuito constará de al menos 
 
 ### Modulo 1
 
+![image](https://user-images.githubusercontent.com/111261878/236118147-b543844f-5566-474f-8f2c-e68ed1a6ee31.png)
+
+El módulo bin_to_bcd_dd convierte cada uno de los números binarios de 6 bits en BCD mediante el algoritmo Double Dabble, y luego los multiplexa en un único bus de 14 bits. Este bus se conecta a la entrada del módulo bcd_to_sseg_cc, que convierte cada par de dígitos BCD en su correspondiente visualización de 7 segmentos, a través de un multiplexor 2x8 que selecciona entre dos displays de 7 segmentos. La salida de cada display de 7 segmentos se envía a través de un puerto de salida diferente.
+
 
 ### Modulo 2
-(diagrama)
+
+![image](https://user-images.githubusercontent.com/111261878/236118218-b70148aa-9fe7-4118-954b-db5b847761ab.png)
+
 El módulo bin2hex tiene dos puertos: una entrada bin de 14 bits que representa el número binario que se desea convertir, y una salida hex_disp de 4 bits que contiene la representación hexadecimal del número de entrada.
 
 Dentro del módulo, hay dos bloques funcionales principales. El primer bloque es la estructura case, que toma la entrada binaria de 14 bits y la convierte en una salida hexadecimal de 4 bits. El segundo bloque es un registro de salida llamado hex_disp, que contiene la salida hexadecimal de 4 bits del bloque case.
