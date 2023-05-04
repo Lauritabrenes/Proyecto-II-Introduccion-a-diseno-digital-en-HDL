@@ -63,7 +63,7 @@ fundamentales de diseño digital sincrónico. El circuito constará de al menos 
 
 ## Pruebas
 
-### Testbench
+#### Testbench
 ![image (6)](https://user-images.githubusercontent.com/111261878/236120855-d30c70fb-9302-49e6-8e46-0656048d07a3.png)
 
 
@@ -75,24 +75,24 @@ fundamentales de diseño digital sincrónico. El circuito constará de al menos 
 
 ## Diagramas
 
-### Diagrama general
+#### Diagrama general
 ![image](https://user-images.githubusercontent.com/111307104/233260519-37e5eb6a-1623-4666-bb70-d9be3a25fb1c.png)
 
-### Modulo 0
+#### Modulo 0
 
 ![image](https://user-images.githubusercontent.com/111261878/236119543-5841d66c-0184-4185-9078-55ad57aaa392.png)
 
 
 En este diagrama, la entrada de 13 bits se extiende a 16 bits mediante el registro de 16 bits. Este número binario se envía al bloque de conversión de BCD, que realiza las operaciones de división y módulo para calcular los dígitos de millares (thou), centenas (hund), decenas (tens) y unidades (ones) en formato BCD, asi como los divisores (1000, 100, 10 y 1) se utilizan para determinar la posición de cada dígito. Los dígitos de miles, centenas, decenas y unidades se envían a las salidas thou, hund, tens y ones respectivamente, cada una de 4 bits de ancho.
 
-### Modulo 1
+#### Modulo 1
 
 ![image](https://user-images.githubusercontent.com/111261878/236118147-b543844f-5566-474f-8f2c-e68ed1a6ee31.png)
 
 El módulo bin_to_bcd_dd convierte cada uno de los números binarios de 6 bits en BCD mediante el algoritmo Double Dabble, y luego los multiplexa en un único bus de 14 bits. Este bus se conecta a la entrada del módulo bcd_to_sseg_cc, que convierte cada par de dígitos BCD en su correspondiente visualización de 7 segmentos, a través de un multiplexor 2x8 que selecciona entre dos displays de 7 segmentos. La salida de cada display de 7 segmentos se envía a través de un puerto de salida diferente.
 
 
-### Modulo 2
+#### Modulo 2
 
 ![image](https://user-images.githubusercontent.com/111261878/236118218-b70148aa-9fe7-4118-954b-db5b847761ab.png)
 
@@ -102,7 +102,7 @@ Dentro del módulo, hay dos bloques funcionales principales. El primer bloque es
 
 En general, el módulo bin2hex es bastante simple, ya que solo realiza una conversión simple de binario a hexadecimal. Sin embargo, el diagrama de bloques muestra cómo se divide la funcionalidad del módulo en dos bloques funcionales separados, lo que ayuda a mantener el código organizado y fácil de entender.
 
-### Modulo 3
+#### Modulo 3
 
 ![image](https://user-images.githubusercontent.com/111261878/236115812-b38112c5-72c8-4ae1-87f9-fa2c83fe8f5f.png)
   
