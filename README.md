@@ -91,6 +91,7 @@ En general, el módulo bin2hex es bastante simple, ya que solo realiza una conve
 ### Modulo 3
 
 ![image](https://user-images.githubusercontent.com/111261878/236115812-b38112c5-72c8-4ae1-87f9-fa2c83fe8f5f.png)
+  
   Descripción:
 -num_binario: el bit más significativo (MSB) del número binario de entrada de 14 bits.
 -num_extendido a hexadecimal: el número binario de entrada extendido a 16 bits, con el bit más significativo duplicado para extender el signo.
